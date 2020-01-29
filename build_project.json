@@ -1,9 +1,13 @@
-{ 
-	"name": "{{PROJECT_NAME}}",
-	"components":{
-		"{{SVC_COMPONENT_NAME_1}}": {
-			"branch": "master",
-			"description": "trial version - 1"
-		}
-	}
+{
+  "name": "adi",
+  "components": {
+    "adi": {
+      "branch": "1",
+      "description": "2"
+    },
+    "adiiii": {
+      "branch": "3",
+      "description": "4"
+    }
+  }
 }
