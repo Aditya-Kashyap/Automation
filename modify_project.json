@@ -1,0 +1,8 @@
+{
+ "name": "adi_sample",
+ "components": {
+  "name": "comp1",
+  "type": "job",
+  "flavor": "python"
+ }
+}

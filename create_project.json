@@ -1,0 +1,24 @@
+{
+  "name": "adi_sample",
+  "projectDescription": "A Sample Project Created by Aditya",
+  "owner": {
+    "uid": "aditya.kashyap"
+  },
+  "developers": "aditya.kashyap",
+  "environments": "DEV",
+  "persistent_volume_size": "2",
+  "components": [
+    {
+      "name": "comp1",
+      "type": "job",
+      "flavor": "java",
+      "description": "sample comp1"
+    },
+    {
+      "name": "comp2",
+      "type": "job",
+      "flavor": "python",
+      "description": "sample comp2"
+    }
+  ]
+}
