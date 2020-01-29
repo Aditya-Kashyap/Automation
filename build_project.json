@@ -1,11 +1,11 @@
 {
   "name": "adi",
   "components": {
-    "adi": {
+    "comp1": {
       "branch": "1",
       "description": "2"
     },
-    "adiiii": {
+    "comp2": {
       "branch": "3",
       "description": "4"
     }
