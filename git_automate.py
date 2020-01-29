@@ -23,7 +23,7 @@ while True:
     elif user_choice == '3':
         print("Enter you committing message")
         message = input()
-        comm = 'git commit -m ' + message
+        comm = 'git commit -m ' + '"' + message + '"'
         commit = Popen(comm, shell=True)
         commit.wait()
 
