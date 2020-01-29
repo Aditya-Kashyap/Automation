@@ -2,13 +2,13 @@ from subprocess import *
 
 
 while True:
-    print("What do you want to do with your git file\n")
-    print("Please Select from the following Input\n")
-    print("1. To Check the Status of the Git\n")
+    print("What do you want to do with your git file")
+    print("Please Select from the following Input")
+    print("1. To Check the Status of the Git")
     print("2. To add files to the Git Repository")
-    print("3. To Commit your Files\n")
-    print("4. To Pull files from Git Repository\n")
-    print("5. To Push the files into the repository\n")
+    print("3. To Commit your Files")
+    print("4. To Pull files from Git Repository")
+    print("5. To Push the files into the repository")
     print("Anything Else to Exit")
     user_choice = input()
 
@@ -37,8 +37,3 @@ while True:
 
     else:
         break
-
-
-
-
-
