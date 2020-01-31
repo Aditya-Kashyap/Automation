@@ -44,7 +44,7 @@ else:
     pass
 
 while choice == '1':     # Running a loop when the user has added an component and if he wants to add more
-    print("\nDo you want to add any other component!")
+    print("Do you want to add any other component!")
     print("Enter 1 to Add or Any other key to Exit")
     ch = input()
     if ch == '1':
