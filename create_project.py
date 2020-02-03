@@ -26,10 +26,10 @@ per_vol = input()
 
 # Appending these Data's into the JSON Object
 data['owner']['uid'] = user_id
-data['developers'] = user_id
+data['developers'] = [user_id]
 data['environments'] = env
 data['projectDescription'] = pro_desc
-data['persistent_volume_size'] = per_vol
+data['persistent_volume_size'] = int(per_vol)
 
 # Taking User Choice for Adding Components:
 print("Do you want to add any components")

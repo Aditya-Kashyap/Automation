@@ -1,13 +1,13 @@
 {
-  "name": "adi",
+  "name": "adi_demo1",
   "components": {
     "comp1": {
-      "branch": "1",
-      "description": "2"
+      "branch": "master",
+      "description": "Sample Build"
     },
     "comp2": {
-      "branch": "3",
-      "description": "4"
+      "branch": "master",
+      "description": "Ssmple Build"
     }
   }
 }
